@@ -8,12 +8,9 @@ A Shell script to install Kali repository safely with least priority settings to
 
 ## Installation
 
-First clone the repository.
+First clone the repository, then navigate to folder **kali-repo-installer**.
 ```
 git clone https://github.com/vandalsoul/kali-repo-installer.git
-```
-Navigate to **kali-repo-installer**.
-```
 cd kali-repo-installer
 ```
 Change permission for `install.sh`.
