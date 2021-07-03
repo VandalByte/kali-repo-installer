@@ -1,2 +1,48 @@
-# kali-repo-installer
-Shell script
+
+```
+█▄▀ ▄▀█ █░░ █   █▀█ █▀▀ █▀█ █▀█   █ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░ █▀▀ █▀█
+█░█ █▀█ █▄▄ █   █▀▄ ██▄ █▀▀ █▄█   █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄ ██▄ █▀▄
+```
+
+**A Shell script to install official Kali repository safely with least priority settings to any Debian based linux distribution in order to avoid clashes between native repository packages.**
+
+**⚠️ WARNING** ~ *This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒*
+
+## ✨ Features
+
+- Easy to install.
+- All the packages present in Kali repository will be available to download.
+- You can upgrade your Linux distribution normally without the fear of breaking anything.
+
+## ⚙️ Installation
+
+First clone the repository, then navigate to folder **kali-repo-installer**.
+```shell
+git clone https://github.com/vandalsoul/kali-repo-installer.git
+cd kali-repo-installer
+```
+Change permission for `install.sh`
+```shell
+chmod +x install.sh
+```
+Now run the script.
+```shell
+sudo ./install.sh
+```
+And there you go all done, Kali Linux repository is added.
+
+### ( ❗ ) Important
+
+Preferred way of downloading any packages in my opinion will be by using `aptitude` instead of `apt`.
+This is because for some Packages their dependencies are present in the Kali Linux repositories and sometimes `apt` fails to install them.
+
+Installing packages using `aptitude`
+```shell
+sudo aptitude install -t kali-rolling PACKAGE_NAME
+```
+Replace `PACKAGE_NAME` with your desired package name.
+
+If you are too lazy 😪 like me, you can create an alias for this in your terminal. 😂 **LOL**
+
+## 📝 License
+Made with 💖 and it's released under the **MIT license**.
