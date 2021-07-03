@@ -12,6 +12,7 @@
 
 - Easy to install.
 - All the packages present in Kali repository will be available to download.
+- You can upgrade your Linux distribution normally without the fear of breaking anything.
 
 ## ⚙️ Installation
 
