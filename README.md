@@ -6,7 +6,7 @@
 
 **A Shell script to install official Kali repository safely with least priority settings to any Debian based linux distribution in order to avoid clashes between native repository packages.**
 
-**⚠️ WARNING** ~ *This script aims at installing repository of another distribution to yours, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒*
+**⚠️ WARNING** ~ *This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒*
 
 ## ✨ Features
 
