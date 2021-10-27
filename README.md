@@ -4,7 +4,9 @@
 █░█ █▀█ █▄▄ █   █▀▄ ██▄ █▀▀ █▄█   █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄ ██▄ █▀▄
 ```
 
-**A Shell script to install official Kali repository safely with least priority settings to any Debian based linux distribution in order to avoid clashes between native repository packages.**
+**A Shell script to install official Kali repository safely with least priority settings to any Debian based linux distribution.**
+
+<br>
 
 **⚠️ WARNING** ~ *This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒*
 
@@ -12,7 +14,7 @@
 
 - Easy to install.
 - All the packages present in Kali repository will be available to download.
-- You can upgrade your Linux distribution normally without the fear of breaking anything.
+- Install Kali packages and also update your system normally without the fear of breaking anything.
 
 ## ⚙️ Installation
 
@@ -21,7 +23,7 @@ First clone the repository, then navigate to folder **kali-repo-installer**.
 git clone https://github.com/vandalsoul/kali-repo-installer.git
 cd kali-repo-installer
 ```
-Change permission for `install.sh`
+Give executable permission for `install.sh`
 ```shell
 chmod +x install.sh
 ```
@@ -29,7 +31,7 @@ Now run the script.
 ```shell
 sudo ./install.sh
 ```
-And there you go all done, Kali Linux repository is added.
+And there you go all done, Kali Linux repository is added with least priority settings.
 
 ### ( ❗ ) Important
 
