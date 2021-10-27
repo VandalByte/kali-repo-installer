@@ -3,6 +3,7 @@
 █▄▀ ▄▀█ █░░ █   █▀█ █▀▀ █▀█ █▀█   █ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░ █▀▀ █▀█
 █░█ █▀█ █▄▄ █   █▀▄ ██▄ █▀▀ █▄█   █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄ ██▄ █▀▄
 ```
+![license](https://img.shields.io/github/license/vandalsoul/darkmatter-grub2-theme?style=for-the-badge)
 
 **A Shell script to install official Kali repository safely with least priority settings to any Debian based linux distribution.**
 
