@@ -9,8 +9,10 @@
 
 <br>
 
-**⚠️ WARNING** ~ *This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒*
-
+<p>
+<img width="1.5%" src="/media/warn.png"/> <b> WARNING ~</b> <i>This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒</i>
+</p>
+  
 ## ✨ Features
 
 - Easy to install.
@@ -34,7 +36,7 @@ sudo ./install.sh
 ```
 And there you go all done, Kali Linux repository is added with least priority settings.
 
-<h2><img width="2.7%" src="/media/warn.png" alt="logo" /> <b>Important</b></h2>
+<h2><img width="2.7%" src="/media/warn.png" alt="logo"/> <b>Important</b></h2>
 
 Preferred way of downloading any packages in my opinion will be by using `aptitude` instead of `apt`.
 This is because for some Packages their dependencies are present in the Kali Linux repositories and sometimes `apt` fails to install them.
