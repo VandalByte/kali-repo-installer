@@ -10,7 +10,7 @@
 <br>
 
 <p>
-<img width="1.5%" src="/media/warn.png"/> <b> WARNING ~</b> <i>This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒</i>
+<img width="1.5%" src="/media/warn.png"/> <b> WARNING $</b> <i>This script aims at installing repository of another distribution, so you should consider to keep a backup in case something breaks, never happened to me before 🙄 but still, you know, safety first. I won't be responsible if any damage is caused by this script, just in case if your try to sue me 😒</i>
 </p>
   
 ## ✨ Features
