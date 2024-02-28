@@ -50,4 +50,4 @@ Replace `PACKAGE_NAME` with your desired package name.
 If you are too lazy 😪 like me, you can create an alias for this in your terminal. 😂 **LOL**
 
 ## 📝 License
-Made with 💖 and it's released under the **MIT license**.
+Made with 💖 and it's released under the **GPLv3 license**.
